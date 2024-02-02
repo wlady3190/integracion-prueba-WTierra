@@ -10,7 +10,7 @@ contraseña_correo = "toal hvga xdaa nsqf"
 def enviar_correo(destinatario, asunto, cuerpo):
     # Servidor SMTP
     servidor_smtp = "smtp.gmail.com"
-    puerto_smtp = 587
+    puerto_smtp = 465
 
     # Mensaje de correo
     mensaje = MIMEMultipart()
